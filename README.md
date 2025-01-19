@@ -1,4 +1,4 @@
-# Labur Test Backend
+# AMC Manage Backend
 A modern Express.js backend system built with TypeScript, MySQL, and Sequelize ORM.
 
 ## Tech Stack
@@ -19,14 +19,14 @@ yarn install
 Run the following SQL command to create the database:
 
 ```sql
-CREATE DATABASE labur_test;
+CREATE DATABASE amc_db;
 ```
 ### 3. Create a .env File
 Add the following environment variables to a .env file:
 
 ```makefile
 PORT=3001
-DB_NAME=labur_test
+DB_NAME=amc_db
 DB_USER=root
 DB_PASSWORD=your_password
 DB_HOST=localhost
